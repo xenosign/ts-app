@@ -1,5 +1,5 @@
 import React from "react";
-import { MyProps } from "../App";
+import { MyProps } from "./ParentProps";
 
 export default function Props({ name, age, hobbies }: MyProps) {
   return (
@@ -7,8 +7,8 @@ export default function Props({ name, age, hobbies }: MyProps) {
       <h2>이름 : {name}</h2>
       <h2>나이 : {age}</h2>
       <h2>취미</h2>
-      {hobbies?.map((el) => (
-        <p>{el}</p>
+      {hobbies?.map((el, idx: number) => (
+        <p key={idx}>{el}</p>
       ))}
     </div>
   );
