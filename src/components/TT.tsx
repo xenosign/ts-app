@@ -8,7 +8,7 @@ export default function Tail() {
   };
 
   return (
-    <nav className="w-auto pl-10 pr-10 bg-slate-100">
+    <nav className="bg-gray-100 pl-10 pr-10 w-auto">
       <div className="flex justify-between py-5">
         <ul className="flex gap-16">
           <li className="py-2 flex font-extrabold cursor-pointer">
@@ -31,7 +31,7 @@ export default function Tail() {
                 d="M6.75 6.75h.75v.75h-.75v-.75zM6.75 16.5h.75v.75h-.75v-.75zM16.5 6.75h.75v.75h-.75v-.75zM13.5 13.5h.75v.75h-.75v-.75zM13.5 19.5h.75v.75h-.75v-.75zM19.5 13.5h.75v.75h-.75v-.75zM19.5 19.5h.75v.75h-.75v-.75zM16.5 16.5h.75v.75h-.75v-.75z"
               />
             </svg>
-            <span>TETZ</span>
+            <span>HOME</span>
           </li>
           <li className="hidden md:block py-2 font-semibold cursor-pointer text-slate-500">
             Menu1
