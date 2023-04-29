@@ -71,7 +71,7 @@ export default function Tail() {
         </div>
       </div>
 
-      {/* 모바일 토글 파트 */}
+      {/* 모바일 토글 파트!!! */}
       <div className={toggle ? "md:hidden py-3" : "hidden py-3"}>
         <a href="#" className="block py-2 px-4 hover:bg-slate-200">
           Menu1
