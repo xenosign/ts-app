@@ -3,6 +3,7 @@ import React, { useState } from "react";
 export default function Tail() {
   const [toggle, setToggle] = useState<boolean>(false);
 
+  // 핸들러
   const toggleMenu = (): void => {
     setToggle((cur: boolean) => !cur);
   };
